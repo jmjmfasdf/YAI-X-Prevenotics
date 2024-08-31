@@ -36,6 +36,7 @@
 # Getting Started 🔥
 This project is based on the code from [DeepFace](https://github.com/serengil/deepface). We would like to acknowledge the contributors and maintainers of that repository for their valuable work.
 For detailed usage instructions and examples, please refer to the original repository's README.md file and documentation.
+
 ## Setup
 
 Before installing DeepFace, ensure you have Python 3.5.5 or higher installed. If you want to utilize GPU acceleration, you'll need to install TensorFlow with CUDA support prior to installing DeepFace.
@@ -129,36 +130,18 @@ python accuracy.py --help
 
 # Building on DeepFace for experiments 🏗️🔬
 
-## 0. DeepFace - [Link](https://github.com/serengil/deepface)
-Deepface is a lightweight face recognition and facial attribute analysis (age, gender, emotion and race) framework for python. It is a hybrid face recognition framework wrapping state-of-the-art models: VGG-Face, Google FaceNet, OpenFace, Facebook DeepFace, DeepID, ArcFace, Dlib, SFace and GhostFaceNet.
-
-## 1. AdaFace - [Link](https://github.com/mk-minchul/AdaFace)
+## DeepFace - [Link](https://github.com/serengil/deepface)
 [AdaFace: Quality Adaptive Margin for Face Recognition](https://arxiv.org/abs/2204.00964)
-
-AdaFace is a novel approach for face recognition in low-quality datasets. AdaFace enhances the margin-based loss function by adapting to image quality, assigning varied importance to easy and hard samples based on their quality. By approximating image quality through feature norms, AdaFace outperforms state-of-the-art methods on multiple datasets, including IJB-B, IJB-C, IJB-S, and TinyFace.
-
-## 2. Implement Adaface on Deepface by using ONNX
-Although the recognition model initially did not include AdaFace, we wanted to incorporate AdaFace into the deepface library to evaluate its performance.
-
-We attempted to import the pretrained weights provided on the AdaFace GitHub repository into the deepface library. To facilitate interoperability and sharing between different deep learning frameworks, we utilized the ONNX open-source project to integrate the AdaFace model into deepface for comparison alongside other models. As a result, the AdaFace model could be utilized within the deepface library, allowing for comprehensive comparisons with other models.
+Deepface is a lightweight face recognition and facial attribute analysis (age, gender, emotion and race) framework for python. It is a hybrid face recognition framework wrapping state-of-the-art models: VGG-Face, Google FaceNet, OpenFace, Facebook DeepFace, DeepID, ArcFace, Dlib, SFace and GhostFaceNet.
 
 # Dataset 😊
 We made our own datasets to evaluate various combination of model and backend(detection). To evaluate the robustness of each features, we prepared datasets that can represent key features affect face similarity. We picked 6 to 14 identities considering gender, race, age from the datasets below.
 
 ## 1. Digiface
+([LADN](https://github.com/wangguanzhi/LADN))
 Digiface is a collection of over one million diverse synthetic face images for face recognition. There are 720k images with 10K identities containing various face angle, accessories, emotion and hairstyle. We chose 6 identities for fast inference.
 
-## 2. Hairstyle
-We collected various hairstyle images generated from several GAN based models([Styleyourhair](https://github.com/Taeu/Style-Your-Hair), [Barbershop](https://github.com/ZPdesu/Barbershop)). This dataset contains one original image and several images based on oringal image.
-
-## 3. Makeup
-We collected various makeup images of same identity generated from GAN based models([LADN](https://github.com/wangguanzhi/LADN)). This dataset contains one original image and several makeup images based on original image. In addition, these dataset has subfolders for each identity, one is similar makeup images compared to original image, the other subfolder contains less similar images compared with original images.
-
-## 4. Rotation
-[Multi-PIE](https://www.cs.cmu.edu/afs/cs/project/PIE/MultiPie/Multi-Pie/Home.html) contains pictures of multiple angle of same identity. 
-
-
-# Metrics 📋
+# Evaluation result 📋
 To find best model combination, we made inference metric of our own. You can test our metric on the datasets above. The model combination we tested is shown as below.
 ```
 model = [

@@ -22,7 +22,7 @@
 <hr>
 <!-- HEADER END -->
 
-# Improving performance of Face Recogition for virtual human generation 👩‍💼
+# Implementation for personalized medical report genenration via Medical Large Language Model(LLM) 👩‍💼
 <br>Face recognition model for virtual human generation<br>
 
 # Members 👋
@@ -34,8 +34,7 @@
 <hr>
 
 # Getting Started 🔥
-This project is based on the code from [DeepFace](https://github.com/serengil/deepface). We would like to acknowledge the contributors and maintainers of that repository for their valuable work.
-For detailed usage instructions and examples, please refer to the original repository's README.md file and documentation.
+This project is based on model from [Med42-Llama](https://huggingface.co/m42-health/Llama3-Med42-70B). We would like to acknowledge the contributors and maintainers of that repository for their valuable work.
 
 ## Setup
 

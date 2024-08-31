@@ -13,7 +13,7 @@
 <a href="https://www.notion.so/y-ai/PREVENOTICS-548a329b2fc54f65a1d72c5aadb103de?pvs=4">
     <img src="https://img.shields.io/badge/-Project%20Page-000000?style=flat-square&logo=notion&logoColor=white" alt="NOTION"/>
 </a>
-<a href="https://www.notion.so/y-ai/7b3780c8172c425d87f6174ed159d99a?pvs=4">
+<a href="https://www.notion.so/y-ai/66e6e1ec8314487d9807730e2c5190c0?pvs=4">
     <img src="https://img.shields.io/badge/-Full%20Report-dddddd?style=flat-square&logo=latex&logoColor=black" alt="REPORT"/>
 </a>
 </p>
@@ -25,10 +25,11 @@
 <br>Face recognition model for virtual human generation<br>
 
 # Members 👋
-<b> <a href="https://github.com/JungKH33">정경훈</a></b>&nbsp; :&nbsp; YAI 12th&nbsp; /&nbsp; melon345@yonsei.ac.kr<br>
+<b> <a href="https://github.com/rubato-yeong">김진영</a></b>&nbsp; :&nbsp; YAI 13th&nbsp; /&nbsp; jinyeong1324@yonsei.ac.kr<br>
 <b>  <a href="https://github.com/jmjmfasdf">서정민</a></b>&nbsp; :&nbsp; YAI 12th&nbsp; /&nbsp; jmme425@yonsei.ac.kr  <br>
-<b> <a href="https://github.com/Nugu-ai">박승호</a></b>&nbsp; :&nbsp; YAI 12th&nbsp; /&nbsp; gomi0904@yonsei.ac.kr <br>
-<b> <a href="https://github.com/Tim3s">홍지우</a></b>&nbsp; :&nbsp; YAI 12th&nbsp; /&nbsp; jiwoo0729@yonsei.ac.kr <br>
+<b> <a href="https://github.com/0914eagle">전희재</a></b>&nbsp; :&nbsp; YAI 12th&nbsp; /&nbsp; 0914eagle@yonsei.ac.kr <br>
+<b> <a href="#">고현아</a></b>&nbsp; :&nbsp; YAI 13th&nbsp; /&nbsp; kha9867@yonsei.ac.kr <br>
+<b> <a href="https://github.com/1n1ng">조인희</a></b>&nbsp; :&nbsp; YAI 13th&nbsp; /&nbsp; choinh@yonsei.ac.kr <br>
 <hr>
 
 # Getting Started 🔥

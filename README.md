@@ -23,7 +23,7 @@
 <!-- HEADER END -->
 
 # Implementation for personalized medical report genenration via Medical Large Language Model(LLM) 👩‍💼
-<br>Face recognition model for virtual human generation<br>
+Face recognition model for virtual human generation
 
 # Members 👋
 <b> <a href="https://github.com/rubato-yeong">김진영</a></b>&nbsp; :&nbsp; YAI 13th&nbsp; /&nbsp; jinyeong1324@yonsei.ac.kr<br>

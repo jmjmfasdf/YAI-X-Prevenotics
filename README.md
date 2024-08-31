@@ -110,10 +110,10 @@ Generated reports were evaluated by ChaptGPT via G-Eval, ...
 Human evaluation was also done with same report,,....
 
 
-## Skills
+# Skills
 <br><img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white"/> 
 
-## Citations
+# Citations
 Models
 ```bibtex
 @misc{2408.06142,

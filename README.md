@@ -174,21 +174,27 @@ backends = [
 ## Citations
 Models
 ```bibtex
-@inproceedings{kim2022adaface,
-title={AdaFace: Quality Adaptive Margin for Face Recognition},
-author={Kim, Minchul and Jain, Anil K and Liu, Xiaoming},
-booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
-year={2022}
+@misc{2408.06142,
+Author = {Clément Christophe and Praveen K Kanithi and Tathagata Raha and Shadab Khan and Marco AF Pimentel},
+Title = {Med42-v2: A Suite of Clinical LLMs},
+Year = {2024},
+Eprint = {arXiv:2408.06142},
 }
 ```
 Datasets
 ```bibtex
-@inproceedings{bae2023digiface1m,
-    title={DigiFace-1M: 1 Million Digital Face Images for Face Recognition},
-    author={Bae, Gwangbin and de La Gorce, Martin and Baltru{\v{s}}aitis, Tadas and Hewitt, Charlie and Chen, Dong and Valentin, Julien and Cipolla, Roberto and Shen, Jingjing},
-    booktitle={2023 IEEE Winter Conference on Applications of Computer Vision (WACV)},
-    year={2023},
-    organization={IEEE}
+@inproceedings{hartvigsen2022toxigen,
+  title={ToxiGen: A Large-Scale Machine-Generated Dataset for Implicit and Adversarial Hate Speech Detection},
+  author={Hartvigsen, Thomas and Gabriel, Saadia and Palangi, Hamid and Sap, Maarten and Ray, Dipankar and Kamar, Ece},
+  booktitle={Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics},
+  year={2022}
+}
+
+@article{jin2020disease,
+  title={What Disease does this Patient Have? A Large-scale Open Domain Question Answering Dataset from Medical Exams},
+  author={Jin, Di and Pan, Eileen and Oufattole, Nassim and Weng, Wei-Hung and Fang, Hanyi and Szolovits, Peter},
+  journal={arXiv preprint arXiv:2009.13081},
+  year={2020}
 }
 
 ```

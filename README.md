@@ -7,7 +7,7 @@
 
 <p align="center">
 <br>
-<a href="mailto:melon345@yonsei.ac.kr">
+<a href="mailto:jmme425@yonsei.ac.kr">
     <img src="https://img.shields.io/badge/-Gmail-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Gmail"/>
 </a>
 <a href="https://www.notion.so/y-ai/PREVENOTICS-548a329b2fc54f65a1d72c5aadb103de?pvs=4">

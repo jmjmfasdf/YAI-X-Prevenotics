@@ -65,10 +65,6 @@ cd deepface
 pip install -e .
 ```
 
-### Download pretrained models
-To use AdaFace, download the ONNX file from [this link](https://drive.google.com/drive/folders/10_FVXnofz0EJh3bbWRoGN84ATHCZ66IE?usp=drive_link) and place it in the `weights/adaface` folder.
-You can change the directory if you modify the model_path variable in `deepface/basemodels/AdaFace`.
-
 
 ## Usage 
 

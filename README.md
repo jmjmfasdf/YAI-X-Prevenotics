@@ -37,9 +37,6 @@ Face recognition model for virtual human generation
 This project is based on model from [Med42-Llama](https://huggingface.co/m42-health/Llama3-Med42-70B). We would like to acknowledge the contributors and maintainers of that repository for their valuable work.
 
 ## Setup
-
-Before installing DeepFace, ensure you have Python 3.5.5 or higher installed. If you want to utilize GPU acceleration, you'll need to install TensorFlow with CUDA support prior to installing DeepFace.
-
 ### GPU Installation (Optional)
 
 To enable GPU support, install TensorFlow with CUDA by running:
@@ -71,7 +68,6 @@ pip install -r requirements.txt
 ```bash
 python download_model.py
 ```
-
 
 ## Usage 
 

@@ -97,8 +97,6 @@ You can see the available models, backends, and metrics by running:
 python accuracy.py --help
 ```
 
-![Accuracy](assets/accuracy.png)
-
 *Figure 2: Example density graph created by the script. It calculates the appropriate threshold and its corresponding accuracy.*
 
 # Evaluation result based on G-Eval and human evaluation 🏗️🔬

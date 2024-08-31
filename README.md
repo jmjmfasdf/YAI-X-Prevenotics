@@ -2,7 +2,7 @@
 <!-- HEADER START -->
 <!-- src: https://github.com/kyechan99/capsule-render -->
 <p align="center"><a href="#">
-    <img width="100%" height="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:C0C0C0,50:87CEEB,100:1E90FF&height=220&section=header&fontSize=40&fontColor=ffffff&animation=fadeIn&fontAlignY=40&text=Medical%20Report%20Generation" alt="header" />
+    <img width="100%" height="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:C0C0C0,50:87CEEB,100:1E90FF&height=220&section=header&fontSize=40&fontColor=ffffff&animation=fadeIn&fontAlignY=40&text=Personalized%20EGD%20Report%20Generation" alt="header" />
 </a></p>
 
 
@@ -22,7 +22,7 @@
 <hr>
 <!-- HEADER END -->
 
-# Implementation for personalized medical report genenration via Medical Large Language Model(LLM) 👩‍💼
+# Implementation for personalized EGD report genenration via Medical Large Language Model(LLM) 👩‍💼
 Face recognition model for virtual human generation
 
 # Members 👋

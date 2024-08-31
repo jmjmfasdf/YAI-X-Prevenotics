@@ -53,16 +53,12 @@ To install deepface, follow these steps:
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/JungKH33/face-similarity.git
+git clone https://github.com/jmjmfasdf/YAI-X-Prevenotics.git
 ```
 
-2. Navigate to the cloned directory:
+2. Install pretrained model:
 ```bash
-cd deepface
-```
-3. Install deepface:
-```bash
-pip install -e .
+python download_model.py
 ```
 
 

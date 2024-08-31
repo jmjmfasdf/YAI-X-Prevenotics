@@ -107,45 +107,14 @@ python accuracy.py --help
 
 *Figure 2: Example density graph created by the script. It calculates the appropriate threshold and its corresponding accuracy.*
 
-# Building on DeepFace for experiments 🏗️🔬
+# Evaluation result based on G-Eval and human evaluation 🏗️🔬
 
-## DeepFace - [Link](https://github.com/serengil/deepface)
-[AdaFace: Quality Adaptive Margin for Face Recognition](https://arxiv.org/abs/2204.00964)
-Deepface is a lightweight face recognition and facial attribute analysis (age, gender, emotion and race) framework for python. It is a hybrid face recognition framework wrapping state-of-the-art models: VGG-Face, Google FaceNet, OpenFace, Facebook DeepFace, DeepID, ArcFace, Dlib, SFace and GhostFaceNet.
+## G-Eval
+Generated reports were evaluated by ChaptGPT via G-Eval, ...
 
-# Dataset 😊
-We made our own datasets to evaluate various combination of model and backend(detection). To evaluate the robustness of each features, we prepared datasets that can represent key features affect face similarity. We picked 6 to 14 identities considering gender, race, age from the datasets below.
+## Human evaluation
+Human evaluation was also done with same report,,....
 
-## 1. Digiface
-([LADN](https://github.com/wangguanzhi/LADN))
-Digiface is a collection of over one million diverse synthetic face images for face recognition. There are 720k images with 10K identities containing various face angle, accessories, emotion and hairstyle. We chose 6 identities for fast inference.
-
-# Evaluation result 📋
-To find best model combination, we made inference metric of our own. You can test our metric on the datasets above. The model combination we tested is shown as below.
-```
-model = [
-  "VGG-Face",
-  "Facenet",
-  "Facenet512",
-  "OpenFace",
-  "DeepFace",
-  "DeepID",
-  "ArcFace",
-  "SFace",
-  "AdaFace"
-]
-
-backends = [
-  'opencv', 
-  'ssd', 
-  'mtcnn', 
-  'retinaface', 
-  'mediapipe',
-  'yolov8',
-  'yunet',
-  'fastmtcnn',
-]
-```
 
 ## Skills
 <br><img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white"/> 

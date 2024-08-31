@@ -168,10 +168,8 @@ backends = [
 ]
 ```
 
-
-
 ## Skills
-Frameworks <br><img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white"/> 
+<br><img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white"/> 
 
 ## Citations
 Models

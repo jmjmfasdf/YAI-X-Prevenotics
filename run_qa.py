@@ -50,7 +50,7 @@ def get_optional_inputs(history=None, family_history=None, past_procedure=None, 
                         coffee=None, alcohol=None, smoking=None, overeating=None, spicy_salting_fatty_food=None, exercise=None):
     
     optional_inputs = {
-        "history": bool(history) if history is not None else None,
+        "history": str(history) if history is not None else None,
         "family_history": bool(family_history) if family_history is not None else None,
         "past_procedure": bool(past_procedure) if past_procedure is not None else None,
         "past_infection": bool(past_infection) if past_infection is not None else None,
@@ -112,7 +112,7 @@ def make_template(age, sex, diagnosis, cause, symptom, treatment, optional_input
     
     # Check and append optional inputs if they are not None, including their boolean value and context description
     if optional_inputs["history"] is not None:
-        optional_template += f"    - history (bool: {optional_inputs['history']}): Previous diagnosis status. If the previous diagnosis included gastritis, atrophic gastritis, or intestinal metaplasia, and these conditions have either persisted or progressed, there is a very high risk of developing stomach cancer, so it is important to be cautious.\n"
+        optional_template += f"    - history (str: {optional_inputs['history']}): Previous diagnosis status. If the previous diagnosis included gastritis, atrophic gastritis, or intestinal metaplasia, and these conditions have either persisted or progressed, there is a very high risk of developing stomach cancer, so it is important to be cautious.\n"
     if optional_inputs["family_history"] is not None:
         optional_template += f"    - family_history (bool: {optional_inputs['family_history']}): Family history of stomach cancer. If there is a family history of stomach cancer, you need to be even more cautious about the risk of developing it.\n"
     if optional_inputs["past_procedure"] is not None:
@@ -302,8 +302,8 @@ sex = "Male"
 decision = "크기가 큰 위점막하종양"
 comment = "위내시경검사에서 위에 점막하종양이 있습니다. 점막하종양이란 위점막 아래에서 발생한 종양을 말하며, 이 때문에 위벽 일부가 부풀어 올라온 것처럼 보입니다. 점막하 종양은 종류에 따라 아무런 치료가 필요하지 않는 경우부터 수술적 절제가 필요한 경우까지 치료방법이 매우 다양합니다. 정확한 진단 및 적절한 치료 방침 결정을 위해 의료기관을 방문하시어 진료 상담을 받으시길 바랍니다."
 diagnosis, cause, symptom, treatment = return_diagnosis(decision, comment)
-optional_inputs = get_optional_inputs(history=True, family_history=None, past_procedure=None, past_infection=None, obesity=None,
-                        coffee=None, alcohol=None, smoking=True, overeating=True, spicy_salting_fatty_food=None, exercise=None)
+optional_inputs = get_optional_inputs(history='have a history of peptic ulcers.', family_history=None, past_procedure=None, past_infection=None, obesity=None,
+                        coffee=None, alcohol=None, smoking=None, overeating=None, spicy_salting_fatty_food=None, exercise=None)
 
 template = make_template(age, sex, diagnosis, cause, symptom, treatment, optional_inputs)
 print(template)

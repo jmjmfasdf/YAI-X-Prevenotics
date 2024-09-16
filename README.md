@@ -13,7 +13,8 @@
 <b> <a href="https://github.com/0914eagle">전희재</a></b>&nbsp; :&nbsp; YAI 12th&nbsp; /&nbsp; 0914eagle@yonsei.ac.kr <br>
 <b> <a href="#">고현아</a></b>&nbsp; :&nbsp; YAI 13th&nbsp; /&nbsp; kha9867@yonsei.ac.kr <br>
 <b> <a href="https://github.com/1n1ng">조인희</a></b>&nbsp; :&nbsp; YAI 13th&nbsp; /&nbsp; choinh@yonsei.ac.kr <br>
-<hr>
+
+<br>
 
 # Getting Started 🔥
 This project is based on model from [Med42-Llama](https://huggingface.co/m42-health/Llama3-Med42-70B). We would like to acknowledge the contributors and maintainers of that repository for their valuable work.
@@ -62,8 +63,12 @@ You can manually run python code individually by running:
 python run_qa.py
 ```
 
+<br>
+
 # Skills
 <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white"/> 
+
+<br>
 
 # Citations
 

@@ -22,9 +22,6 @@
 <hr>
 <!-- HEADER END -->
 
-# Implementation for personalized EGD report genenration via Medical Large Language Model(LLM) 👩‍💼
-Face recognition model for virtual human generation
-
 # Members 👋
 <b> <a href="https://github.com/rubato-yeong">김진영</a></b>&nbsp; :&nbsp; YAI 13th&nbsp; /&nbsp; jinyeong1324@yonsei.ac.kr<br>
 <b>  <a href="https://github.com/jmjmfasdf">서정민</a></b>&nbsp; :&nbsp; YAI 12th&nbsp; /&nbsp; jmme425@yonsei.ac.kr  <br>
@@ -80,20 +77,12 @@ You can manually run python code individually by running:
 python run_qa.py
 ```
 
-# Evaluation result based on G-Eval and human evaluation 🏗️🔬
-
-## G-Eval
-Generated reports were evaluated by ChaptGPT via G-Eval, ...
-
-## Human evaluation
-Human evaluation was also done with same report,,....
-
-
 # Skills
 <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white"/> 
 
 # Citations
-Models
+
+### Models
 ```bibtex
 @misc{2408.06142,
 Author = {Clément Christophe and Praveen K Kanithi and Tathagata Raha and Shadab Khan and Marco AF Pimentel},
@@ -102,7 +91,8 @@ Year = {2024},
 Eprint = {arXiv:2408.06142},
 }
 ```
-Datasets
+
+### Datasets
 ```bibtex
 @inproceedings{hartvigsen2022toxigen,
   title={ToxiGen: A Large-Scale Machine-Generated Dataset for Implicit and Adversarial Hate Speech Detection},

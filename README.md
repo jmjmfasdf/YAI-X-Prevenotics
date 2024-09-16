@@ -5,21 +5,6 @@
     <img width="100%" height="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:C0C0C0,50:87CEEB,100:1E90FF&height=220&section=header&fontSize=40&fontColor=ffffff&animation=fadeIn&fontAlignY=40&text=Personalized%20EGD%20Report%20Generation" alt="header" />
 </a></p>
 
-
-<p align="center">
-<br>
-<a href="mailto:jmme425@yonsei.ac.kr">
-    <img src="https://img.shields.io/badge/-Gmail-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Gmail"/>
-</a>
-<a href="https://www.notion.so/y-ai/PREVENOTICS-548a329b2fc54f65a1d72c5aadb103de?pvs=4">
-    <img src="https://img.shields.io/badge/-Project%20Page-000000?style=flat-square&logo=notion&logoColor=white" alt="NOTION"/>
-</a>
-<a href="https://www.notion.so/y-ai/66e6e1ec8314487d9807730e2c5190c0?pvs=4">
-    <img src="https://img.shields.io/badge/-Full%20Report-dddddd?style=flat-square&logo=latex&logoColor=black" alt="REPORT"/>
-</a>
-</p>
-<br>
-<hr>
 <!-- HEADER END -->
 
 # Members 👋
